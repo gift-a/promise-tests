@@ -15,8 +15,8 @@
       console.log("then =>" + value);
       throw "Я иду в catch";
     })
-    .catch(function(value) {
-      console.log("cath =>" + value);
+    .then(null, function(value) {
+      console.log("rejected =>" + value);
       return 500;
     })
     .then(function(value) {

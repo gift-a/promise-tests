@@ -30,6 +30,34 @@ console.log(`outer ${a}`);
 
 // console.log(`outer ${a}`);
 
+// new Promise(executor);
+
+// new Promise(function(resolve, reject) {
+//   if (false) reject();
+//   resolve();
+// });
+
+// let a = 2;
+
+// const promise = new Promise((resolve, reject) => {
+//   if (false) reject();
+//   a = 5;
+//   resolve("ok");
+// });
+
+// promise()
+//   .then(
+//     res => res + " here"
+//   )
+//   .then(
+//     res => console.log(res)
+//   )
+//   .catch(
+//     err => console.log(err)
+//   )
+
+//   console.log(a);
+
 // somePromise().then(
 //   function() {
 //     throw new Error("oh noes");
