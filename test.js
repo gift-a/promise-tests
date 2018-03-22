@@ -33,8 +33,7 @@ console.log(`outer ${a}`);
 // new Promise(executor);
 
 // new Promise(function(resolve, reject) {
-//   if (false) reject();
-//   resolve();
+//   reject(value);
 // });
 
 // let a = 2;
